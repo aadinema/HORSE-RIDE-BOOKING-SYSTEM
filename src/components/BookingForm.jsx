@@ -44,10 +44,10 @@ const BookingForm = () => {
             required
           >
             <option value="" className="text-black font-semibold">Select a horse</option>
-            <option value="Thunder" className="text-black font-semibold">Thunder</option>
-            <option value="Lightning" className="text-black font-semibold">Lightning</option>
-            <option value="Blaze" className="text-black font-semibold">Blaze</option>
-            <option value="Storm" className="text-black font-semibold">Storm</option>
+            <option value="Thunder" className="text-black font-semibold">Black Forest</option>
+            <option value="Lightning" className="text-black font-semibold">Blazer</option>
+            <option value="Blaze" className="text-black font-semibold">Caspian</option>
+            <option value="Storm" className="text-black font-semibold">Camarillo White Horse</option>
           </select>
         </label>
         <label className="block mb-4">
