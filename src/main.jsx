@@ -19,6 +19,7 @@ const App = () => (
     <Router>
       <Header />
       <main className="flex-grow">
+        <LandingPage/>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/booking" element={<BookingForm />} />
