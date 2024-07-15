@@ -1,6 +1,7 @@
 // src/components/Footer.jsx
-import React ,{useEffect}from 'react';
-import { gsap } from 'gsap';
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   useEffect(() => {
@@ -16,7 +17,13 @@ const Footer = () => {
       <div className="container mx-auto text-center footer-content">
         <p>&copy; 2024 Horse Ride Booking. All rights reserved.</p>
         <p>
-          <a href="/terms" className="hover:underline">Terms of Service</a> | <a href="/privacy" className="hover:underline">Privacy Policy</a>
+          <NavLink to="/terms" className="hover:underline">
+            Terms of service
+          </NavLink>{" "}
+          |{" "}
+          <NavLink to="/privacy" className=" hover:underline">
+            Privacy Policy
+          </NavLink>
         </p>
       </div>
     </footer>
